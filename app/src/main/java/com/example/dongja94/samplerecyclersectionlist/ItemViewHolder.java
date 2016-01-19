@@ -16,5 +16,6 @@ public class ItemViewHolder extends RecyclerView.ViewHolder {
 
     public void setChildItem(ChildItem item) {
         titleView.setText(item.childName);
+        titleView.setTextSize(item.fontSize);
     }
 }

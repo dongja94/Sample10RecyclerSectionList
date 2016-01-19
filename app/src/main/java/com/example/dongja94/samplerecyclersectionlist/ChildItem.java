@@ -5,4 +5,5 @@ package com.example.dongja94.samplerecyclersectionlist;
  */
 public class ChildItem {
     String childName;
+    float fontSize;
 }
